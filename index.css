@@ -254,3 +254,15 @@ ul li a:hover {
     width: 20%;
 }
 
+.calendar {
+    font-family: "Poppins", sans-serif !important;
+    border: none !important;
+}
+
+.contrib-column {
+    border: none !important;
+}
+
+.table-column {
+    display: none !important;
+}

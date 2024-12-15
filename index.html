@@ -7,6 +7,8 @@
     <meta name="viewport" content="width= device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="index.css" />
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" /> 
     <title>Anistratenco - Portfolio</title>
 </head>
 
@@ -48,16 +50,25 @@
                             style="font-size: 45px; color: #2e6087; align-self: center;"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/anistrat/" class="icon">
+                    <a href="https://github.com/Solips1sm" class="icon">
                         <i class="ri-github-fill" style="font-size: 45px; color: #2e6087; align-self: center;"></i>
                     </a>
-
-
                 </div>
             </div>
             <div class="image">
                 <img src="https://media.licdn.com/dms/image/v2/D5603AQF6_u5Nocf-Fw/profile-displayphoto-shrink_800_800/B56ZOXtvuhGkAo-/0/1733417172718?e=1739404800&amp;v=beta&amp;t=lhlF_WG9ysrXuakzc8JEuyksYGaTF8kTP93mGorVe_U"
                     alt="Serghei" loading="lazy">
+            </div>
+            <div>
+                <!-- Prepare a container for your calendar. -->
+                <div class="calendar">
+                    <!-- Loading stuff -->
+                    Loading the data just for you.
+                </div>
+
+                <script>
+                    GitHubCalendar(".calendar", "Solips1sm", { responsive: true });
+                </script>
             </div>
         </div>
     </section>
