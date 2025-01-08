@@ -96,6 +96,7 @@ ul li a:hover {
         border-bottom-color: var(--extra-light);
         border-top-color: var(--extra-light);
     }
+
     100% {
         border-bottom-color: var(--secondary-color);
         border-top-color: var(--secondary-color);
@@ -153,7 +154,7 @@ ul li a:hover {
     gap: 1rem;
 }
 
-.action__btns button {
+.action__btns button, .portfolio {
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -197,6 +198,7 @@ ul li a:hover {
     border-radius: 100%;
     box-shadow: 0 0 50px rgba(14, 13, 38, 0.1);
 }
+
 .image img:hover {
     animation: gradientAnimation 1.5s infinite alternate;
 }
@@ -205,6 +207,7 @@ ul li a:hover {
     0% {
         box-shadow: 0px 0px 36px rgba(96, 122, 196, 0.3);
     }
+
     100% {
         box-shadow: 0px 0px 36px rgba(96, 154, 196, 0.6);
     }
